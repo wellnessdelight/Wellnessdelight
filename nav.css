@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-@import url('https://webfontworld.github.io/GmarketSans/GmarketSans.css');
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
 @import url('https://webfontworld.github.io/pretendard/Pretendard.css');
 @import url('https://webfontworld.github.io/MaruBuri/MaruBuri-Bold.css');
 
@@ -247,7 +247,7 @@ line-height: 17px;
 
 
 
-
+ 
 
 
 
@@ -260,7 +260,109 @@ line-height: 17px;
     list-style: none;
 }
 
-.footer a {
-    text-decoration: none;
-    color: white
+
+
+footer {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    height: 279px;
+    width: 100%;
+    margin-top: 165px;
+    background-color: #003531;
+}
+
+.footer_logo {
+    width: 245px;
+    height: 72px;
+    padding-top: 20px;
+    padding-left: 196px;
+}
+
+.footer_members {
+    position: absolute;
+    display: flex;
+    padding-top: 65px;
+    right: 157px;
+}
+
+.footer_job {
+    padding-right: 24px;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 21px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.footer_members ul li {
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-right: 90px;
+}
+
+.footer_bottom {
+    position: absolute;
+    right: 247px;
+    display: inline-block;
+    text-align: right;
+    align-content: flex-end;
+    padding-top: 157px;
+}
+
+.youtube_logo i {
+    padding-right: 5px;
+    font-family: 'Font Awesome 6 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.youtube_logo {font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px   ;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;}
+
+.footer_email {font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+color: #ffffff;}
+
+.footer_unv {font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;}
+
+
+.copyright_text {top: 260px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: 'Pretendard';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 13px;
+text-align: right;
+color: #FFFFFF;
+opacity: 0.3;
 }
