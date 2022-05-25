@@ -78,7 +78,7 @@ li a:hover img, li a:focus img {
 .main_text2 > h1 {
     padding-top: 66px;
     text-align: center;
-    font-family: 'Gmarket Sans';
+    font-family: 'GmarketSans';
 font-style: normal;
 font-weight: 500;
 font-size: 32px;
@@ -130,7 +130,7 @@ text-transform: uppercase;
 }
 .title_underline > h1 {
    
-    font-family: 'Gmarket Sans';
+font-family: 'GmarketSans';
 font-style: normal;
 font-weight: 500;
 font-size: 32px;
@@ -302,11 +302,12 @@ text-transform: uppercase;
     color: #333333;
 }
 .contents3 > h1 {
-    font-family: 'Gmarket Sans';
+    font-family: 'GmarketSans';
 font-style: normal;
 font-weight: 500;
 font-size: 32px;
 line-height: 32px;
+letter-spacing: -0.015em;
     color: #333333;
     padding-bottom: 20px;
 }
