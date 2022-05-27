@@ -32,6 +32,7 @@
 /* 코스 */
 .course_info {
     width: 100%;
+    max-width: 100%;
     padding-top: 102px;
     padding-bottom: 94px;
     display: flex;
@@ -46,7 +47,7 @@
 /* Day */
 .line {
     background: #F2F2F28C;
-    width: 100%;
+    width: 1920px;
     max-width: 100%;
     height: 91px;
     margin-bottom: 106px;
@@ -78,7 +79,6 @@
 /* 본문 */
 .section {
     height: 393px;
-    width: 1920px;
     max-width: 100%;
 }
 
