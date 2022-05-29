@@ -3,14 +3,15 @@
 
 
 @import url('https://webfontworld.github.io/pretendard/Pretendard.css');
-@import url('https://webfontworld.github.io/MaruBuri/MaruBuri-Bold.css');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-jp.css');
 @font-face {
-    font-family:GmarketSans ;
-    src: url(./fonts/GmarketSansBold.woff);
+    font-family:07TetsubinGothic;
+    src: url(./fonts/Tetsubin-Gothic.woff);
 }
 @font-face {
-    font-family: 07TetsubinGothic;
-    src: url(./fonts/Tetsubin-Gothic.woff);
+    font-family: MaboroshinoNijimiMincho
+    ;
+    src: url(./fonts/MaboroshinoNijimiMincho.woff2);
 }
 body {
     margin: 0;
@@ -60,12 +61,13 @@ body {
 }
 
 .navbar a {
-    font-family: 'Pretendard';
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;;
-text-transform: capitalize;
-
+    font-family: 'Pretendard JP Variable';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     color: black;

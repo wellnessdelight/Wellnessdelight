@@ -9,20 +9,29 @@
 }
 
 .header {
-    display: flex;
     width: 100%;
+    display: flex;
 }
 
-.header>img {
-    position: relative;
-    z-index: -1;
-    display: block;
+.header_img {
     max-width: 100%;
+    min-width: 900px;
     height: auto;
     margin: auto;
+    position: relative;
+    
 }
 
-.header>a {
+.header_img > img {
+    max-width: 100%;
+    min-width: 900px;
+    height: auto;
+    margin: auto;
+    position: relative;
+
+}
+
+.header_button {
     position: absolute;
     top: 6.8%;
     left: 4.5%;
@@ -31,92 +40,87 @@
 
 /* 코스 */
 .course_info {
+    min-width: 900px;
     width: 100%;
-    max-width: 100%;
     padding-top: 102px;
-    padding-bottom: 94px;
     display: flex;
 }
 
 .course_info > img {
     max-width: 100%;
+    min-width: 900px;
     height: auto;
     margin: auto;
 }
 
+
 /* Day */
 .line {
-    background: #F2F2F28C;
-    width: 1920px;
-    max-width: 100%;
+    min-width: 900px;
+    width: 100%;
     height: 91px;
+    margin-top: 102px;
     margin-bottom: 106px;
     display: flex;
     align-items: center;
+    background: #F2F2F28C;
 }
 
 .day {
-    left: 20%;
     display: inline;
+    z-index: 1;
+    left: 20%;
     font-family: 'GmarketSans';
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
     color: #333333;
-    z-index: 1;
 }
 
 .day_underbar {
-    position: absolute;
     width: calc(100% + 40px);
+    height: 20px;
+    z-index: -1;
+    position: absolute;
+    top: 15px;
     left: -20px;
     box-shadow: inset 0 -20px rgba(111, 218, 193, 0.3);
-    height: 20px;
-    top: 15px;
-    z-index: -1;
 }
+
 
 /* 본문 */
 .section {
-    height: 393px;
-    max-width: 100%;
+    min-width: 900px;
+    width: 100%;
+}
+
+table {
+    max-width: 1064px;
+    min-width: 900px;
+    width: 55.41666667%;
+    height: auto;
+    margin: auto;
+    word-break: break-all;  
 }
 
 .title {
-    min-width: 900px;
-    max-width: 1064px;
-    width: 55.41666667%;
-    display: flex;
-    margin: auto;
-    align-items: center;
+    width: 100%;
+    margin-bottom: 12px;
     font-family: 'GmarketSans';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 22px;
-    align-items: center;
     text-transform: uppercase;
     color: #60605F;
-    margin-bottom: 12px;
 }
 
-.section>.section_info {
-    min-width: 867px;
-    max-width: 1027px;
-    width: 55.41666667%;
-    display: flex;
-    margin: auto;
-    align-items: center;
+.section_img {
+    width: 260px;
     padding-left: 37px;
 }
 
-.section_info>.section_img {
-    float: left;
-    width: 260px;
-    height: 260px;
-}
-
-.section_info>.section_contents {
+.section_contents {
     margin-left: 37px;
     font-family: 'Pretendard';
     font-style: normal;
@@ -126,24 +130,29 @@
     color: #333333;
 }
 
+.distance {
+    height: 75px;
+    margin-top: 24px;
+    margin-left: 50%;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    border-left: dotted 3px #60605F;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #60605F;
+}
+
 h3 {
-    font-family: 'Pretendard Variable';
+    font-family: 'Pretendard';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 160%;
     color: #333333;
-}
-
-.detail {
-    text-align: justify;
-    display: block;
-    padding-bottom: 20px;
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 160%;
 }
 
 span {
@@ -154,21 +163,34 @@ span {
     line-height: 18px;
 }
 
+.detail {
+    padding-bottom: 20px;
+    display: block;
+    text-align: justify;
+    font-family: 'Pretendard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+}
+
 .text2 {
-    display: flex;
     margin-top: 10px;
+    display: flex;
     align-items: center;
 }
 
 .price {
     width: 296px;
-    height: 58px;
+    height: 73px;
+    padding: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     border: solid 1px #60605FB2;
     border-radius: 15px;
-    text-align: center;
-    display: inline;
-    vertical-align: middle;
-    font-family: 'Pretendard Variable';
+    font-family: 'Pretendard';
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
@@ -177,10 +199,15 @@ span {
     color: #333333;
 }
 
+.price_text {
+    padding: auto;
+    text-align: center;
+}
+
 h5 {
+    margin-top: 8px;
     font-weight: 400;
     font-size: 15px;
-    margin-top: 8px;
 }
 
 h6 {
@@ -194,37 +221,17 @@ h6 {
     margin-left: 20px;
 }
 
-.distance {
-    width: 50%;
-    height: 75px;
-    margin-left: 50%;
-    border-left: dotted 3px #60605F;
-    background-size: 7px;
-    display: flex;
-    align-items: center;
-    margin-top: 24px;
-    padding-left: 8px;
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-    color: #60605F;
-}
-
 
 /* 다른코스 둘러보기 */
 .diff {
     width: 100%;
-        max-width: 100%;
-
-    padding-top: 57px;
+    padding-top: 132px;
     display: flex;
 }
 
 .diff_img {
     max-width: 100%;
-    min-width: 1074px;
+    min-width: 900px;
     height: auto;
     margin: auto;
     position: relative;
@@ -232,6 +239,7 @@ h6 {
 
 .diff_img > img {
     max-width: 100%;
+    min-width: 900px;
     height: auto;
     margin: auto;
     position: relative;
@@ -239,8 +247,8 @@ h6 {
 
 .diff_button {
     position: absolute;
-    top: 46px;
-    left: 769px;
+    top: 35%;
+    left: 72%;
 }
 
 .diff_button img {
