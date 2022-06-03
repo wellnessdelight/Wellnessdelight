@@ -4,15 +4,17 @@
 
 @import url('https://webfontworld.github.io/pretendard/Pretendard.css');
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-jp.css');
+
 @font-face {
-    font-family:07TetsubinGothic;
+    font-family: 07TetsubinGothic;
     src: url(./fonts/Tetsubin-Gothic.woff);
 }
+
 @font-face {
-    font-family: MaboroshinoNijimiMincho
-    ;
+    font-family: MaboroshinoNijimiMincho;
     src: url(./fonts/MaboroshinoNijimiMincho.woff2);
 }
+
 body {
     margin: 0;
 }
@@ -31,14 +33,15 @@ body {
 
 
 
-.navbar_underbar
-{position: absolute;
+.navbar_underbar {
+    position: absolute;
     width: calc(100% + 40px);
     left: -20px;
     box-shadow: inset 0 -20px rgba(111, 218, 193, 0.3);
     height: 20px;
     top: 25px;
-    z-index: -1;}
+    z-index: -1;
+}
 
 .navbar_logo {
     padding-left: 25px;
@@ -48,48 +51,50 @@ body {
 
 }
 
-.navbar_img { width: 245px;
-    height: 72px;}
+.navbar_img {
+    width: 245px;
+    height: 72px;
+}
 
 
 
 
 .vl {
-    border-left: 2px solid #333333
-    ;
+    border-left: 2px solid #333333;
     height: 32px;
 }
 
 .navbar a {
     font-family: 'Pretendard JP Variable';
     font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 18px;
-letter-spacing: 0.1em;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     color: black;
-    cursor:pointer
-
-
+    cursor: pointer
 }
 
-.navbar_dropdown::before {content:"";
-height: 3px;
-width: 0%;
-background-color: #6FDAC1;
-border-radius: 5px;
-transition: 0.3s;
-position:absolute;
-bottom: 5px;
-padding-left: 0;
-right: 25%;
+.navbar_dropdown::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #6FDAC1;
+    border-radius: 5px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 5px;
+    padding-left: 0;
+    right: 25%;
 }
 
 
-.navbar_dropdown:hover::before { width: 50% }
+.navbar_dropdown:hover::before {
+    width: 50%
+}
 
 
 
@@ -99,13 +104,13 @@ right: 25%;
     padding-bottom: 5px;
     list-style: none;
     display: flex;
-  
+
 }
 
 .navbar_dropdown {
     position: relative;
     padding: 8px 26px;
-    
+
 }
 
 
@@ -125,12 +130,12 @@ right: 25%;
 }
 
 .navbar_submenu a {
-   
+
     color: #60605F;
     font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
     padding: 10px 15px;
     text-align: center;
     display: block;
@@ -138,7 +143,7 @@ line-height: 17px;
 
 .navbar_dropdown:hover .navbar_submenu {
     z-index: 5;
-    display:block;
+    display: block;
 }
 
 .navbar_submenu a:hover {
@@ -152,7 +157,7 @@ line-height: 17px;
 
 
 .navbar_lan {
-    
+
     padding: 8px;
     padding-right: 50px;
     display: flex;
@@ -163,8 +168,8 @@ line-height: 17px;
     color: #969695;
     font-family: 'Pretendard';
     font-weight: 500;
-font-size: 14px;
-line-height: 17px;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 
@@ -247,8 +252,8 @@ line-height: 17px;
     color: #969695;
     font-family: 'Pretendard';
     font-weight: 500;
-font-size: 14px;
-line-height: 17px;
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .navbar_lan li ul li span:hover,
@@ -262,7 +267,7 @@ line-height: 17px;
 
 
 
- 
+
 
 
 
@@ -345,42 +350,48 @@ footer {
     color: #FFFFFF;
 }
 
-.youtube_logo {font-family: 'Pretendard';
+.youtube_logo {
+    font-family: 'Pretendard';
     font-style: normal;
     font-weight: 700;
     font-size: 13px;
-    line-height: 21px   ;
+    line-height: 21px;
     text-align: right;
     text-transform: uppercase;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+}
 
-.footer_email a{font-family: 'Pretendard';
+.footer_email a {
+    font-family: 'Pretendard';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 160%;
-color: #ffffff;}
+    color: #ffffff;
+}
 
-.footer_unv {font-family: 'Pretendard';
+.footer_unv {
+    font-family: 'Pretendard';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 16px;
     color: #FFFFFF;
-    opacity: 0.6;}
+    opacity: 0.6;
+}
 
 
-.copyright_text {top: 260px;
+.copyright_text {
+    top: 260px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
     font-family: 'Pretendard';
-font-style: normal;
-font-weight: 400;
-font-size: 8px;
-line-height: 13px;
-text-align: right;
-color: #FFFFFF;
-opacity: 0.3;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 13px;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.3;
 }
-
