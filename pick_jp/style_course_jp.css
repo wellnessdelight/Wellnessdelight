@@ -1,0 +1,293 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+}
+
+.header_img {
+    max-width: 100%;
+    min-width: 1100px;
+    height: auto;
+    margin: auto;
+    position: relative;
+    
+}
+
+.header_img > img {
+    max-width: 100%;
+    min-width: 1100px;
+    height: auto;
+    margin: auto;
+    position: relative;
+
+}
+
+.header_button {
+    position: absolute;
+    top: 6.8%;
+    left: 4.5%;
+}
+
+
+/* 코스 */
+.course_info {
+    min-width: 1100px;
+    width: 100%;
+    padding-top: 102px;
+    display: flex;
+}
+
+.course_info > img {
+    max-width: 100%;
+    min-width: 1100px;
+    height: auto;
+    margin: auto;
+}
+
+
+/* Day */
+.line {
+    min-width: 1100px;
+    width: 100%;
+    height: 91px;
+    margin-top: 102px;
+    margin-bottom: 106px;
+    display: flex;
+    align-items: center;
+    background: #F2F2F28C;
+}
+
+.day {
+    display: inline;
+    z-index: 1;
+    left: 20%;
+    font-family: '07TetsubinGothic';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.015em;
+    color: #333333;
+}
+
+.day_underbar {
+    width: calc(100% + 40px);
+    height: 20px;
+    z-index: -1;
+    position: absolute;
+    top: 15px;
+    left: -20px;
+    box-shadow: inset 0 -20px rgba(111, 218, 193, 0.3);
+}
+
+
+/* 본문 */
+.section {
+    min-width: 1100px;
+    width: 100%;
+}
+
+table {
+    max-width: 1064px;
+    min-width: 900px;
+    width: 55.41666667%;
+    height: auto;
+    margin: auto;
+    word-break: break-all;  
+}
+
+td {
+    vertical-align : top;
+}
+
+.title {
+    width: 100%;
+    margin-bottom: 12px;
+    font-family: '07TetsubinGothic';
+    font-style: normal;
+    font-weight: 800;
+font-size: 22px;
+line-height: 22px;
+    text-transform: uppercase;
+    color: #60605F;
+}
+
+.section_img {
+    width: 260px;
+    padding-left: 37px;
+}
+
+.section_contents {
+    margin-left: 37px;
+    font-family: 'Pretendard JP Variable';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.distance {
+    height: 75px;
+    margin-top: 24px;
+    margin-left: 50%;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+    border-left: dotted 3px #60605F;
+    font-family: 'Pretendard Variable';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+    color: #60605F;
+}
+
+h3 {
+    font-family: 'Pretendard JP Variable';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 32px;
+    color: #333333;
+}
+
+span {
+    font-family: 'Pretendard JP Variable';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.detail {
+    padding-bottom: 20px;
+    display: block;
+    text-align: justify;
+    font-family: 'Pretendard JP Variable';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+}
+
+.text2 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    min-width: 296px;
+    width: 296px;
+    height: 73px;
+    padding: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #60605FB2;
+    border-radius: 15px;
+    font-family: 'Pretendard JP Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.price_text {
+    padding: auto;
+    text-align: center;
+}
+
+h5 {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h6 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #60605F;
+}
+
+.link {
+    margin-left: 20px;
+}
+
+
+/* 다른코스 둘러보기 */
+.diff {
+    width: 100%;
+    padding-top: 132px;
+    display: flex;
+}
+
+.diff_img {
+    width: 1074px;
+height: 133px;
+    max-width: 100%;
+    min-width: 1074px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.diff_img > img {
+    max-width: 100%;
+    min-width: 1100px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.diff_button {
+    position: absolute;
+    top: 35%;
+    left: 69%;
+  
+}
+
+.diff_button img {
+    transition: all 0.2s linear;
+    display: inline-block;  
+    width: 75%;
+    height: 75%;
+}
+
+.diff_button a:hover img, .diff_button a:focus img {
+    transform: scale(1.05);
+}
+
+.head_size{width: 1920px;
+    height: 454px;}
+
+.back_imgsize {width: 358px;
+    height: 25px;}
+
+.dab_size {width: 1260px;
+    height: 508px;}
+
+.dyo_size {width: 1046px;
+    height: 510px;}
+
+.sub_size {width: 1046px;
+    height: 508px;}
+
+.info_size {width: 50%;
+    height: 50%;}
+    
+
