@@ -9,24 +9,29 @@
 }
 
 .header {
-    /* 마진 제거 */
-    display: flex;
     width: 100%;
+    display: flex;
 }
 
-.header>img {
-    /* 맥스와이드 100%, 마진 좌우제거, 마진 오토, 높이 오토, 너비 제거 */
-    position: relative;
-    z-index: -1;
-    display: block;
+.header_img {
     max-width: 100%;
+    min-width: 1100px;
     height: auto;
     margin: auto;
-    padding-bottom: 167px;
+    margin-bottom: 167px;
+    position: relative;
 }
 
-.header> a {
-    /* 탑, 레프트 퍼센트로 변경 */
+.header_img > img {
+    max-width: 100%;
+    min-width: 1100px;
+    height: auto;
+    margin: auto;
+    position: relative;
+
+}
+
+.header_button {
     position: absolute;
     top: 6.8%;
     left: 4.5%;
@@ -166,8 +171,8 @@ text-transform: capitalize;
     color: #ddd;
 }
 
-.header_button {width: 187px;
-    height: 21px;}
+.header_button {width: 207px;
+    height: 24px;}
 
 .header_imgsize {width: 1920px;
 height: 1080px;}

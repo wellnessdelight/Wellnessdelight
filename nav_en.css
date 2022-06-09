@@ -16,7 +16,7 @@ body {
 
 
 .navbar {
-    min-width: 1100px;
+    min-width: 1090px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -272,6 +272,7 @@ line-height: 17px;
 
 
 footer {
+    min-width: 1100px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -286,7 +287,7 @@ footer {
     width: 245px;
     height: 72px;
     padding-top: 26px;
-    padding-left: 196px;
+    padding-left: 10%;
 }
 
 
