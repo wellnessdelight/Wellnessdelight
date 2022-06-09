@@ -71,7 +71,7 @@
     z-index: 1;
     left: 20%;
     font-family: '07TetsubinGothic';
-    font-weight: 800;
+    font-weight: 300;
     font-size: 32px;
     line-height: 32px;
     letter-spacing: -0.015em;
@@ -113,7 +113,7 @@ td {
     margin-bottom: 12px;
     font-family: '07TetsubinGothic';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 300;
 font-size: 22px;
 line-height: 22px;
     text-transform: uppercase;
