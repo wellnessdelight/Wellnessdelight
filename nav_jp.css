@@ -6,12 +6,12 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable-jp.css');
 
 @font-face {
-    font-family: 07TetsubinGothic;
+    font-family: '07TetsubinGothic';
     src: url(./fonts/Tetsubin-Gothic.woff);
 }
 
 @font-face {
-    font-family: MaboroshinoNijimiMincho;
+    font-family: 'MaboroshinoNijimiMincho';
     src: url(./fonts/MaboroshinoNijimiMincho.woff2);
 }
 
