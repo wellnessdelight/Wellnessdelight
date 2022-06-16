@@ -70,11 +70,10 @@
     display: inline;
     z-index: 1;
     left: 20%;
-    font-family: '07TetsubinGothic';
-    font-weight: 300;
+    font-family: 'GmarketSans';
+    font-weight: 700;
     font-size: 32px;
     line-height: 32px;
-    letter-spacing: -0.015em;
     color: #333333;
 }
 

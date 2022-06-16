@@ -8,6 +8,10 @@
     position: relative;
 }
 
+img {
+    image-rendering: -webkit-optimize-contrast !important;
+}
+
 /* main_text0 */
 .main_text0 {
     display: flex;
@@ -425,21 +429,25 @@ li a:focus img {
 
 
 .info_imgsize {
-    width: 349px;
-    height: 57px;
+    width: 370px;
+    height: auto;
 }
 
 .course_imgsize {
-    width: 183px;
-    height: 328px;
+    width: 174.3px;
+    height: 309.36px;
 }
 
 .org_imgsize {
-    Width: 181px;
+    Width: 189px;
     Height: 46px;
 }
 
 .theme_imgsize {
     width: 218px;
     height: 253px;
+
+
 }
+
+

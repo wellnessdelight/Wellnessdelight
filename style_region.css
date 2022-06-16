@@ -160,3 +160,10 @@
 .pagination li a:hover:not(.active) {
     color: #ddd;
 }
+
+
+.header_img img {width: 1920px;
+    height: 454px;}
+
+.header_button img {width: 177px;
+height: 21px;}

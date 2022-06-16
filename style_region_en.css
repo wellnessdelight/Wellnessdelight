@@ -161,3 +161,15 @@
 .pagination li a:hover:not(.active) {
     color: #ddd;
 }
+
+.header_button {width: 207px;
+    height: 24px;}
+
+.header_imgsize {width: 1920px;
+height: 454px;}
+
+.header_buttonsize {width: 226.5px;
+    height: 17px;}
+
+.theme_buttonsize {width: 239px;
+    height: 17px;}
