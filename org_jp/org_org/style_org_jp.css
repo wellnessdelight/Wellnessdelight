@@ -68,7 +68,7 @@ td {
     display: inline-block;
     font-family: '07TetsubinGothic';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 300;
     font-size: 32px;
     line-height: 32px;
     letter-spacing: -0.015em;
@@ -132,3 +132,6 @@ p {
 
 .buttonsize {width: 122px;
     height: 25px;}
+
+.header_imgsize {width: 1920px;
+    height: 454px;}

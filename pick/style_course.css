@@ -264,3 +264,30 @@ h6 {
 .diff_button a:hover img, .diff_button a:focus img {
     transform: scale(1.05);
 }
+
+.header_img img{width: 1920px;
+height: 452px;}
+
+.header_button img {width: 226.5px;
+height: 21px;}
+
+.diff_img img {width: 1074px;
+    height: 133px;}
+
+.button img{height: 49px;
+width: auto;}
+
+.dab_size{width: 1260px;
+    height: 508px;}
+
+.dyo_size {width: 1046px;
+    height: 510px;}
+
+.rimu_size {width: 1012px;
+    height: 508px;}
+
+.seng_size {width: 1046px;
+    height: 508px;}
+
+.sub_size {width: 1046px;
+    height: 508px;}
