@@ -19,10 +19,10 @@
     height: auto;
     margin: auto;
     position: relative;
-    
+
 }
 
-.header_img > img {
+.header_img>img {
     max-width: 100%;
     min-width: 1100px;
     height: auto;
@@ -46,7 +46,7 @@
     display: flex;
 }
 
-.course_info > img {
+.course_info>img {
     max-width: 100%;
     min-width: 1100px;
     height: auto;
@@ -100,11 +100,11 @@ table {
     width: 55.41666667%;
     height: auto;
     margin: auto;
-    word-break: break-all;  
+    word-break: break-all;
 }
 
 td {
-    vertical-align : top;
+    vertical-align: top;
 }
 
 .title {
@@ -243,7 +243,7 @@ h6 {
     position: relative;
 }
 
-.diff_img > img {
+.diff_img>img {
     max-width: 100%;
     min-width: 1100px;
     height: auto;
@@ -262,6 +262,52 @@ h6 {
     display: inline-block;
 }
 
-.diff_button a:hover img, .diff_button a:focus img {
+.diff_button a:hover img,
+.diff_button a:focus img {
     transform: scale(1.05);
+}
+
+.header_img img {
+    width: 1920px;
+    height: 454px;
+}
+
+.header_button img {
+    width: 176px;
+    height: 17px;
+}
+
+.diff_img img {
+    width: 1074px;
+    height: 133px;
+}
+
+.button img {
+    height: 49px;
+    width: auto;
+}
+
+.dab_size {
+    width: 1260px;
+    height: 508px;
+}
+
+.dyo_size {
+    width: 1083px;
+height: 510px;
+}
+
+.rimu_size {
+    width: 1014px;
+height: 506px;
+}
+
+.seng_size {
+    width: 1046px;
+height: 508px;
+}
+
+.sub_size {
+    width: 1117px;
+height: 508px;
 }
